@@ -1,0 +1,950 @@
+Submission Title,Submission Url,Plain Description,Video,Website,File Url,Desired Prizes,Built With,Mlh Points,Mlh Hardware Lab,Mlh Software Lab,Submitter Screen Name,College/Universities Of Team Members,Additional Team Member Count,Team Member 1 Screen Name,...,
+Madhacks2,http://madhacks-heartbleed.devpost.com/submissions/78043-madhacks2,"Inspiration
+
+There are many instances when EMT's are not able to act freely, due to incomplete information. Suppose an EMT wants to administer a drug, to which the patient is allergic to, then the patient might go into anaphylactic shock. Through this app, EMTs can click a picture of the patient and in seconds retrieve the basic medical profile of the patient, which can be used to accordingly alter treatment and first aid. 
+
+What it does
+
+It uses an Android app to take a patients photo and sends the photo to the whatson API. The name of the patient is parsed from the result  and send it to the epic API. We retrieve the medical record of the patient and display it on the android device.
+It clicks a picture of someone snf Uses that picture file to get a patient's history, including allergy to drugs or foods, medical history.
+
+How we built it
+
+We used android studio to create a front end application that takes photos of patients. In the back end we used Java to communicate with the whatson and epic API's and retrieve the patients medical records. The result was displayed on the android phone. 
+
+Challenges we ran into
+
+Lack of documentation of whatson api. Limited number of access keys in Whatson API.
+
+Accomplishments that I'm proud of
+
+It works.
+
+What I learned
+
+Redbull is useful
+
+What's next for Madhacks2
+
+Brainstorming
+",,https://github.com/singh387/Madhacks2,,"""Objectively Human"" - Liberty Mutual","java, android-studio, restful-api","purdue university, University of Wisconsin Madison",,,singh387,"Purdue University, University of Wisconsin - Madison",2,Christopher-Potter,Shrehit,
+SnapFeels,http://madhacks-heartbleed.devpost.com/submissions/78107-snapfeels,"Inspiration
+
+Mental health has an incredible impact on our both daily lives and our general sense of well-being. However, in many instances, we tend to forget to take care of ourselves and allow stress to build up. In order to increase mindfulness of our own emotions, we decided to create SnapFeels, an app to help users journal their state of mind.
+
+What it does
+
+SnapFeels allows users to take a picture (selfie) that represents their current state of emotions. It then organizes and visualizes the data in a stacked bar chart and line graph to represent your emotions and how they have changed over time. 
+
+How we built it
+
+The app is built on the ionic framework and primarily uses the azure emotion recognition API to parse emotions out of selfies. The framework allowed for integration to a multiple number of user interface elements, data visualization, and back-end options.
+
+Challenges we ran into
+
+A large challenge we ran into was sending the captured image to Azure's emotion API. This task took the most amount of time to accomplish and multiple approaches were used to finally get the image to upload correctly. 
+
+Accomplishments that we're proud of
+
+In addition to getting the images uploading correctly to the API, the overall UI design and polish on the app is something that we are very proud of. 
+
+What we learned
+
+We learned how to combine a multitude of different API's and interfaces together utilizing a variety of languages that some of us were very unfamiliar with. We also improved our ability as a team to split and manage different tasks in order to build the app much more efficiently in a short time.
+
+What's next for SnapFeels
+
+Utilizing the data recorded in SnapFeels, we could potentially provide resources to individuals who show consistent negative emotions. These recommendations could also be tailored to the individual using machine learning algorithms. 
+",,https://github.com/AdamHe17/SnapFeels,https://s3.amazonaws.com/challengepost/zip_files/production/25695/zip_files/MadHacks.pdf,"""Objectively Human"" - Liberty Mutual, Best Use of Microsoft Azure - Microsoft ","firebase, angular.js, node.js, ionic2, azure-emotion-api, github",Northwestern University,,,xunil17,Northwestern University,2,he1729,brotatotes,
+Snap Moments,http://madhacks-heartbleed.devpost.com/submissions/78135-snap-moments,"Inspiration
+
+The idea arose from a very sober conversation with my friend. He is a powerhouse when it comes to ideas and I always get new ideas when I'm around him. But this one in particular stuck with me, an Uber for Photographers. I ended up chatting with a professional photographer friend of mine and she agreed that it was a wonderful idea too. It gives a great opportunity for both amateur and professional photographers to gain both experience and clientele.
+
+What it does
+
+The vision :
+
+
+Create Separate Logins for Photographers & Clients
+Create Landing Pages 
+Create an Accessible Database
+Create a search with maps feature
+Create a in-app messaging feature
+
+
+The product (as of right now) :
+
+
+Separate Logins for Photographers & Clients
+Have Responsive Landing Pages
+The Database is implemented
+
+
+How I built it
+
+I ended up using .asp.net.core for building the web app. The pages are hybrid of both C# and html. I implemented simple UX designs and used Adobe Experience Design to create some mock-ups. After the mock ups, implemented a singular class for the database with a check variable to distinguish between the different User Levels.
+
+Challenges I ran into
+
+I am brand new with using asp.net.core and I haven't used much of similar products a lot. The only previous experience I had was html, css, js websites I worked with over the summer. I ran into couple documentation issues which was noted by the Microsoft Representative to add to the tutorial.  Also, I started the plan knowing that I'm going to not be able to complete the entire set of goals but work as much as I can. Also, had a hard time finding help when needed (but I found them eventually and they were super helpful.
+
+Accomplishments that I'm proud of
+
+
+The project so far
+The UX Design
+The Logo
+Learning to Use Asp.Net.Core after I hated .Net for the longest time and actually loving the process.
+Understanding the Model View Controller Idea
+
+
+What I learned
+
+
+.Net.Core
+C#
+Patience
+More Visual Studio
+UX Design
+
+
+What's next for Snap Moments
+
+
+Couple more months in development to complete the goals and create a stable app for release and potentially launch a company.
+
+",,http://webapplication120171008100902.azurewebsites.net/,https://s3.amazonaws.com/challengepost/zip_files/production/25692/zip_files/Screen_Record.zip,"""Objectively Human"" - Liberty Mutual, Best Use of Microsoft Azure - Microsoft ","asp.net.core, html5, c#, css3",Monmouth College,,,SujithSanthosh,Monmouth College,0,,,
+Faces for Physicians,http://madhacks-heartbleed.devpost.com/submissions/78126-faces-for-physicians,"Inspiration
+
+We wanted to help out 3rd world countries that lack digital medical records. The patients have their own books of medical records that they bring with them. This is very inaccurate, especially with the trading and burning of the medical records. This project would relate medical records reliably and accurately, solving the problem of inaccurate records that make it hard to treat the ill.
+
+What it does
+
+Our application allows a doctor to login and take a picture of a patient. If the patient is recognized, their medical record shows up. If the haven't be treated by a doctor using this technology before, the picture will then be trained to that person.
+
+How we built it
+
+We built this mobile app on Android because the devices are cheap which would allow for higher adoption in the 3rd world countries. We also used Azure Face API to detect faces. For our database we used the local phones SQLite, but we planned to upload that to Azure SQL but we ran out of time.
+
+Challenges we ran into
+
+We ran into plenty of issues getting the Facial recognition to work. We also ran into issues with SQLite and the transfer process with Azure. We also wanted to save pictures, but we ran out of time.
+
+Accomplishments that we're proud of
+
+We are very proud of learning the new technology of Azure Faces API. We are also proud of how well the app came together and worked with what we had.
+
+What we learned
+
+We learned a lot about SQL databases, Android Development and of course Azure and its capabilities, especially the Faces API
+
+What's next for Faces for Physicians
+
+Next we would like to make it more light weight and portable. Some restrictions right now are the lack of power and internet in third world countries so we would like to meet that need. We realized that we really wanted to meet all of these needs, but we have to take it one step at a time to create a great solution
+",,https://github.com/joshcurcio/madhacks-medicalrecords,,"""Objectively Human"" - Liberty Mutual, Maddest Hack, Best Use of Microsoft Azure - Microsoft ","android, azure",concordia university wisconsin,,,JoshuaCurcio,Concordia University Wisconsin,2,brennanlinse,timrwild,
+MHPlayer,http://madhacks-heartbleed.devpost.com/submissions/78127-mhplayer,"MHPlayer
+
+Introduction
+MHPlayer is a command line MP3 player that is agile to let your computer focus on more 
+critical functions. The program accepts song file paths as arguments, plays each song 
+in succession, and terminates upon completion.  With this C program, you can change 
+your songs without leaving your coding space and can run the program in the background 
+while you continue your work.
+
+Motivation
+We chose to create this program to learn to manage other forms of output for the user. 
+Music is an important part of many students' lives, and this project showed us many of 
+the levels of complexity present in a media player, that are often taken for granted.  
+
+Code Example
+  _ Playing one song _
+    ./MHPlayer sample1.mp3
+
+_ Playing 3 songs _
+    ./MHPlayer sample1.mp3 sample2.mp3 sample3.mp3
+
+Contributors
+Jake Braun, Jordan Weathersby, & Collin McFadden. October 2017.
+",,https://github.com/thenerdjake/MHPlayer,,1st Time Hacker,"c, c++",(2 * University of Wisconsin-Madison) + Carthage College,,,collinmcfadden,University of Wisconsin - Madison,1,thenerdjake,,
+Pawsitive Tales,http://madhacks-heartbleed.devpost.com/submissions/77931-pawsitive-tales,"Inspiration
+
+TO BE FILLED IN SOON
+
+What it does
+
+How I built it
+
+Challenges I ran into
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for Pawsitive Tales
+",,https://github.com/mannnnnn/MadhacksTheSequel,https://s3.amazonaws.com/challengepost/zip_files/production/25691/zip_files/Pawsitive_Tales_Base_1027.zip,"1st Time Hacker, ""Objectively Human"" - Liberty Mutual, Best Domain Name from Domain.com",gamemaker,UW Madison,,,smann5,University of Wisconsin - Madison,1,lynwo,,
+Mold Conditions Detector,http://madhacks-heartbleed.devpost.com/submissions/78099-mold-conditions-detector,"Inspiration
+
+On a college campus, it's common for living conditions to be less than ideal, with many people living with unwanted mold in their homes. We want people to be more aware of potentially hazardous environments where mold can grow.
+
+What it does
+
+Detects when temperature and humidity of a location are apt for mold growth.
+
+How we built it
+
+We used an Arduino with a Grove-base shield to add a temperature & humidity sensor, button, and buzzer. The enclosure is the shell of a Dell pocket computer, and it's made fully portable with the use of an Adafruit powerboost. The device can be turned off with a power switch to save battery.
+
+Challenges we ran into
+
+Our sensor was not updating due to the addition and removal of some delay() statements, which took a while to figure out and debug. Our code also did not upload to the Arduino for a while, which took some time to troubleshoot.
+
+Accomplishments that we're proud of
+
+We are proud that we have a fully running, fully portable prototype of a mold conditions detector to submit as part of our first ever Hackathon. We are proud that our program has very little bugs and that all the hardware works as expected.
+
+What we learned
+
+We learned teamwork skills, hardware prototyping skills, and product development skills. We also brushed up on our debugging skills.
+
+What's next for Mold Conditions Detecter
+
+If we were to continue development, we would look into consolidating the boards and minimizing the form factor.
+",https://www.youtube.com/watch?v=QAAldRrn_c0&feature=youtu.be,https://github.com/jwiegel2/moldconditions/blob/master/DHT11.ino,,"1st Time Hacker, ""Objectively Human"" - Liberty Mutual, Maddest Hack","arduino, grove.io",University of Wisconsin-Madison,"Arduino 101,Base Shield,Grove Starter Kit Components",,jwiegel2,University of Wisconsin - Madison,3,cpinnow2,pluick,ErikBurt
+ViSign,http://madhacks-heartbleed.devpost.com/submissions/78078-visign,"Inspiration
+
+In the current society, we notice many people with speech deficits are not very well accommodated. We want to create some software that utilizes technology into accommodation for disabilities.
+
+What it does
+
+transformation between sign languages and written languages
+ViSign aims achieve the transformation between sign languages and written languages. It can analyze hands gestures, recognize its meaning in the ASL and translates it into written English letters. It also aims to read the text input and visualize it into ASL. 
+transformation between sign languages and written languages
+Moreover, ViSign can not only accomplish the translation from motion to text, but it can also translate from text to voice, so those that are hard of hearing can type and word with sign language and also work on proper pronunciation.  
+
+How we built it
+
+We used LeapMotion hardware to detect hand gestures. The gestures were then used as training data for a Tensorflow neural net. We also used Google text to voice API for text to audio. 
+
+Challenges we ran into
+
+One of the main challenges we ran into was training the neural net correctly. One we are not experts in sign language so our gestures may have been partially incorrect and inconsistent. In addition, correctly training the neural net to perform a gradient error descent without overfitting the data required many trial and error with the net configurations. One last challenge we ran into was creating a proper way to output gestures to text. We realize that our AI is not perfect, however, we still wish to output the best text possible, so output correct text we made a minimum number of consecutive recognitions before it outputs a character. 
+Besides, the post neural network processing is also a convoluted problem. We admit that our filter is not perfect at this moment in the way that it sometimes could not eliminate the false detection from the stream effectively. However, for a 24-hour hackathon, we are proud of what we've come through, and we believe with enough time and effort taken, this product can be very finely tuned.
+
+Accomplishments that we're proud of
+
+We are proud of creating the neural net number, and also creating a product demo that could benefit society as well. 
+
+What we learned
+
+Neural Nets and AI are very difficult. 
+
+What's next for ViSign
+
+Big things are next for ViSign! The ultimate goal would implementation a Long-Short Term Neural Net that could recognize and translation all sign language gestures, and not just the alphabet. This would be a great tool to help people learn sign language as well as communicate quickly to those who do not know sign language. Imagine using your phone to visually record someone signing a message, then that message could be output either with text or audio to facilitate efficient communication between parties! Other implementations could be used for video chats, day to day sign to text input, and gesture pronunciation practice. We envision a world we people hard of hearing or who have recently become deaf, can use our software to practice signing in private and learn how to correctly pronounce words using sign to audio! We believe ViSign can help bridge the communication gap between those who know sign language and those who do not. 
+",,https://github.com/phenyl-sphinx/ViTerm/,https://s3.amazonaws.com/challengepost/zip_files/production/25682/zip_files/side_vids.mp4.zip,"1st Time Hacker, Best BME Hack, ""Objectively Human"" - Liberty Mutual, Maddest Hack","python, node.js, html5, javascript, tensorflow, leap-motion",University of Wisconsin-Madison,Leap Motion,Amazon Web Services,rliang7,"University of Wisconsin - Madison, University of Wisconsin Madison",2,SamPocs,phenyl-sphinx,
+ADHD Focus Game,http://madhacks-heartbleed.devpost.com/submissions/78131-adhd-focus-game,"Inspiration
+
+We started unsure what we wanted to work on. When we came into possession of the Myo motion tracking armband we instantly started thinking of ideas. Initially we wanted to help people with Parkinson's disease, but we were unsure how to distinguish between normal motion and the shaking from the disease. Then we decided to try and help people with ADHD because it's common for some to need help holding still when they're young. 
+
+What it does
+
+Our website starts a timer which alternates between action sequences (the kid can jump/move around) and freeze sequences (the kid needs to hold perfectly still). 
+
+How we built it
+
+This project started with us making the website from scratch in html, and hosting it for free using the apache-tomcat server through azure. Next we tried to connect the data from the Myo and send it to the website so it could be manipulated and used for the game. 
+
+Challenges we ran into
+
+First of all, I was unable to correctly install the Azure toolkit into eclipse because it wasn't compatible with the eclipse version I had. Next, when I was publishing the site, I thought it wasn't working for a very long time because my test string wasn't appearing. It turns out it was working all along but the text was going to the title in the tab of the site instead of on to the actual webpage. 
+
+Tanvi: Getting the raw data from the Myo was the first challenge. Another challenge was figuring out which exact data values were necessary for our project as 5 different types of data values were given out by the Myo. We also could not figure out how to launch and close an exe file on our website. We also ran into issues with requesting local files using HTTP requests.
+
+Accomplishments that we're proud of
+
+
+Coming up with the idea. 
+It was our first time making a website
+We were able to read and plot the raw data from the Myo. 
+
+
+What we learned
+
+
+There's a difference between what you learn in classes and what you need to learn to make things happen in real life. 
+
+
+What's next for ADHD Focus Game
+
+
+When the data is finally connected to the website, our goal is to find the standard deviation and trigger a boolean saying if you are moving too much or not during the freeze phase. 
+
+",https://www.youtube.com/watch?v=fJzfXG5z1iU,http://webapp-171007150744.azurewebsites.net/,https://s3.amazonaws.com/challengepost/zip_files/production/25697/zip_files/hackathon_files.zip,"1st Time Hacker, Best Use of Microsoft Azure - Microsoft ","javascript, html5, azure, myo",University of Madison Wisconsin,Myo Armband,,mrobbins5,University of Wisconsin - Madison,1,tbhagwat2,,
+AudioVision,http://madhacks-heartbleed.devpost.com/submissions/77794-audiovision,"Inspiration
+
+To provide a navigation and text reading solution for the blind. We are interested in sensory perception, replacement, and augmentation. 
+
+What it does
+
+Replaces parts of normal human vision with audio
+
+How we built it
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for AudioVision
+",,,,"Best BME Hack, ""Objectively Human"" - Liberty Mutual","occipital-sensor, c++, boost, openal, pcl, msp430, visual-studio, eigen",Iowa State University,,,jpbush,,3,NickGerleman,dustinroepsch,EricMiddleton1
+RecoverCom,http://madhacks-heartbleed.devpost.com/submissions/78101-recovercom,"Inspiration
+
+
+Our team had two sources of inspiration for our project. The first is                 > addressing the emotional needs of people who are in hospitals and 
+nursing homes and the second inspiration is helping to aid health workers
+such as nurses and nurse's aides in having a systematic solution to be 
+able to assist their patients or residents by knowing in advance what the 
+individual needs. We wanted to create a simple and easy to use app 
+that can help alleviate loneliness for those in a hospital or nursing home
+as well as help providers with meeting their patients' needs in an effective
+manner. 
+
+
+What it does
+
+
+RecoverCom allows patients/residents to call for assistance for activities
+of daily living (continence needs, transferring, hygiene, etc) or other needs
+on their end. On the provider's end, the app will notify them of the person's
+request and will order multiple requests based on priority due to nurses 
+and nurse's aides usually working with multiple people at once. 
+Another feature of RecoverCom is that the resident or patient can video 
+call volunteers at the given hospital or nursing home whenever they 
+want emotional support. 
+
+
+How we built it
+
+
+We built the app using CSS, HTML, and Javascript using Twitter
+BootStrap, MongoDB for the database, and implemented WebRTC 
+for the video calling feature. 
+
+
+Challenges we ran into
+
+
+Some challenges we encountered were how to implement the video 
+calling feature into the app, setting priorities for requests,
+and making sure the alerts were able to be sent to a different user. 
+
+
+Accomplishments that we're proud of
+
+
+Being able to have the video calling feature to work properly and 
+creating a priority list based on Maslow's Hierarchy of Needs. 
+
+
+What we learned
+
+
+We as a team learned more about the needs of the elderly relating
+to technology which is why we kept the design as simple as possible. 
+This knowledge helped us with keeping our design human-centered. 
+We also learned how to implement video calling using WebRTC.
+
+
+What's next for RecoverCom
+
+
+We plan to improve on the functionality of the app by creating a server to 
+improve the video calling option since at the moment it cannot call another 
+person. We also want to work on the priority filtering function for the 
+provider and implement sound for notification on the app. The end goal
+is to create a fully functioning IOS and Android app that can be utilized
+by any healthcare facility and the general public. 
+
+",,http://104.131.24.33:8080,,"Best BME Hack, ""Objectively Human"" - Liberty Mutual","javascript, html, css","UW Madison, UW Plattville, Michigan Tech",,,AlexMartinez,"University of Wisconsin - Madison, University of Wisconsin - Platteville",2,Lubecked,kmui2,
+MYOnnaise,http://madhacks-heartbleed.devpost.com/submissions/78114-myonnaise,"Inspiration
+
+Physiotherapy is one of the quintessential things to do while recovering from an injury. Usually, its just patients trying to do rigorous exercises that probably redundant and boring and as a result infuriates them. Team MYOnnaise aims to provide a solution to eradicate this problem.
+
+What it does
+
+The hack is the culmination of a web application and a hardware based hack. It uses a MYO armband as a connection between motion and gaming. The EMG sensors pick up subtle hand gestures which are then translated into commands within a game. The game itself is a very natural plat-former with support for two characters (and two armbands!). The main point is to assist people undergoing rehabilitation in parts of the arm. The contraction and expansion of certain muscle groups associated with the gestures help accelerate this process!
+
+How we built it
+
+We brainstormed for about 2 hours to scope out all possible features of the product. We used the MYO armband and its Javascript modules along with Node.js as a back-end to handle server management. The armband itself gave gesture data which we customized to our specific needs. Different layouts and views were used for the different sections of the game and everything from start to finish can be done using gestures!
+
+Challenges we ran into
+
+The first big challenge we ran into was to get the MYO armband to accept custom gestures. We had to handle orientation data from the gyroscopes and accelerometers and use these to achieve our goals. Since the input for the game is not as simple as a key stroke, getting the characters to move as required posed a different challenge than what we were used to. The user interfaces were also to be accessed with gestures so this added that additional task.
+
+Accomplishments that we're proud of
+
+We are really proud of the fact that we were able to get a good working model of an interactive-gaming-rehabilitation-system. Another thing that we are proud of is the amount of effort we put into human-centered designs. We even went to the depths of consulting a professional physiotherapist to get feedback on if our methods would be effective. Most of all, we are proud that we were able to utilize new technology for the greater good. 
+
+What we learned
+
+This was the first time we used the MYO armband and we were excited to see how it would pan out with the theme of the hackathon. It was a hard route to get the armband working with all of the other applications, but by the end of it we were glad we learned it all. We also learned how to program and integrate common gaming ideologies with motion sensing concepts.
+
+What's next for MYOnnaise
+
+The next steps for MYOnnaise will be to incorporate a database (probably MongoDB) to store the EMG information from the MYO armband so that it can serve as data to doctors and nurses who will be helping the user get through his / her injury. Another step will be to implement more custom gestures / expand on the existing game to cater to specific needs.
+",,https://github.com/RahulK1998/MYOnnaise,https://s3.amazonaws.com/challengepost/zip_files/production/25685/zip_files/Video_Demonstration.zip,"Best BME Hack, ""Objectively Human"" - Liberty Mutual, Best Domain Name from Domain.com","myo, javascript, node.js, html, css, jquery",Purdue University,Myo Armband,,Maestorme,Purdue University,1,rkartick,,
+VFIT,http://madhacks-heartbleed.devpost.com/submissions/78096-vfit,"Inspiration
+
+When thinking of ideas to build upon, one idea that stuck to our head was an Application to solve the problem of Physical Disorders, In today's computer savvy world, it is not uncommon amongst youngsters to fall prey to the horrors of physical health problems such as spondylosis. This application aims at solving the problem of Physical health issues using an interactive game environment in VIRTUAL REALITY!
+
+What it does
+
+This application is a windows game, that involves Virtual Reality and Augmented Reality to create an environment where the player can learn various exercises and get rewarded inside the game according to how well he/she performs!
+
+How we built it
+
+VFIT was built using various Hardware and Software frameworks, VFIT is essentially a game that combines the powers of Virtual Reality from Oculus Rift and Augmented Reality from Leap Motion, created using the Unity Engine and Visual Studio. The whole project was made using Collaborate Version Control that is an extension of the Microsoft Cloud Services.
+
+Challenges we ran into
+
+To integrate Oculus Rift with the Leap motion to capture animations as gestures to be awarded points for was a challenge that we had to put a lot of time in to figure out, The whole process of creating a VR game on unity required us to use the collaborate version control instead of GitHub, hence it took us a while to get used to Collaborate.
+
+Accomplishments that we're proud of
+
+By the end of the period of Hacking our team was able to produce an application with two different modes and was also able to integrate all the components as we had planned them to be!
+
+What we learned
+
+We learned that we should never shy away from taking up a challenge, since all of us were new to VR and AR development, but we took it as an aim to create a VR game by the end of the 18 hours, and happily enough were able to execute our plans!
+
+Future Plans
+
+Because of the limited capability of the available sensor, the game currently only supports exercises using your hands. However, we plan to expand it by using different sensors.
+",https://www.youtube.com/watch?v=Eie6aFxd7Ls,https://github.com/root1337/VFit,https://s3.amazonaws.com/challengepost/zip_files/production/25703/zip_files/videoplayback.rar,"Best BME Hack, ""Objectively Human"" - Liberty Mutual, Best Use of Microsoft Azure - Microsoft ","unity, oculus, leap-motion, visual-studio, photoshop, adobe-illustrator, adobe-premier, azure","University of Illinois Urbana-Champaign (3 participants), University of Wisconsin-Madison (1participant)","Alienware Laptop,Dell XPS 13 Laptop,Leap Motion,Oculus Rift",,tj-tusharjain,"University of Illinois at Urbana-Champaign, University of Wisconsin - Madison",3,paragbajaj,root1337,khokhar3
+Alive,http://madhacks-heartbleed.devpost.com/submissions/78110-alive,"Alive -- a dead man's switch
+
+Sometimes, that date you're going on feels a a bit unsafe. Or you're finally climbing a 14er. Or you simply live in Detroit. For all those cases, a dead man's switch is a useful tool! Whenever you don't promptly answer an _ Are you ok? _ query, a text will be sent to your emergency contact, saying that you might be in danger!
+
+Built on top of Microsoft's Azure platform, Alive offers an unprecedented ease of use and availability, with simple access through Facebook's Messenger!
+For all iLovers, there's an iPhone app as well, providing the additional feature of updating the user's location or triggering a switch when no heartbeat is detected or beats at an unhealthy rate.
+",,https://www.facebook.com/WhateverMad-784763928315034/,,"Best BME Hack, ""Objectively Human"" - Liberty Mutual, Best Use of Microsoft Azure - Microsoft ","azure, facebook-chat, twilio, ios, swift, node.js, cocoa, facebook","University of Zagreb, Lulea University of Technology, University of Wisconsing Madison",,,ChubbyHunteR,"University of Zagreb, University of Wisconsin - Madison, wuhan university",1,GindaChen,,
+timecard,http://madhacks-heartbleed.devpost.com/submissions/78133-timecard,"What it does
+
+This iOS app logs each of your daily tasks in a form of a “time card,” which allows for creation of better schedules to solve procrastination.
+
+How I built it
+
+Swift and iOS development
+
+What's next for timecard
+
+Sharing logs with others for management within groups.
+",,,,"Best BME Hack, Best Use of Microsoft Azure - Microsoft ","swift, ios",Purdue University,,,ryujimano,Purdue University,0,,,
+Super Pineapple Thing,http://madhacks-heartbleed.devpost.com/submissions/78142-super-pineapple-thing,"What it is
+
+You're a small pineapple, taking on a big world of creatures slowly evolving to ruin you.
+
+http://pineappl.es
+",,,,"Best Domain Name from Domain.com, Maddest Hack, Best Use of Microsoft Azure - Microsoft ","javascript, phaser.js, numjs, azure",University of Wisconsin-Madison,,,connorstamper,,1,jmoss20,,
+Blood Donate,http://madhacks-heartbleed.devpost.com/submissions/78112-blood-donate,"Inspiration
+
+We wanted to create an app that connects users to blood donor clinics. There isn't any app like ours that connects users directly to donor clinics. Our app transforms the conventional way of blood donation campaigning and paves a way for digital revolution in the area of blood donation.
+
+What it does
+
+Our app directly connects the user to the blood donor clinic. Initially, the user needs to sign up where he needs to put in his desired username, desired password, email, city, state and his blood type and later needs to pass a test to see if he is allowed to donate blood. He will then be prompted to a screen where he can find the nearest blood donor clinic. Simultaneously, his information gets stored in a database, which the donor clinics can access and contact the donor. 
+
+How we built it
+
+We used Android Studio to do the majority of the coding and layouting. We used Google Firebase as a database to store the user's information and is accessible by the donor clinics.
+
+Challenges we ran into
+
+We had difficulty connecting Firebase to Android Studio. There was an error in the gradle, which we eventually fixed. Some 'toast' messages were not popping up and some 'intents' were not passing, but they are working now.
+
+Accomplishments that we're proud of
+
+We are proud that we have a fully functional app that accesses various activities and the database.
+
+What we learned
+
+We learnt and elevated our Android Studio and Firebase skills
+
+What's next for Blood Donate
+
+We need to improve the layout of our app. We also need to improve the efficiency of our app.
+",https://www.youtube.com/watch?v=wSlDRkWXScY,https://github.com/cptn-neemo/BloodBank,,Best InfoSec + BME Hack,"android-studio, java, firebase","Purdue University, University of Wisconsin",,,Tortera1999,"Purdue University, University of Wisconsin - Madison",3,MaxHuddleston,mridul0501,byron123t
+CryptoPill,http://madhacks-heartbleed.devpost.com/submissions/78088-cryptopill,"Inspiration
+
+We were inspired by the concept of block chain and wanted to create a practical implementation of it.
+
+What it does
+
+It makes the process of distributing and handling opioids secure because of the implementation of the blockchain. It also makes sure that users cannot create fake prescriptions or collect the same prescriptions multiple times.
+
+How We built it
+
+The front end was built in angular featuring material design.
+The back end was built using flask, solidity, express.
+",,https://github.com/cryptopill,,"Best InfoSec + BME Hack, ""Objectively Human"" - Liberty Mutual, Best Domain Name from Domain.com, Best Use of Microsoft Azure - Microsoft ","python, html5, bash, node.js, flask, adobe-illustrator, json, javascript, typescript, css, azure, angular.js, express.js",Purdue University,,Domain.com,nyoungstudios,Purdue University,3,cdsupina,vvijayan462,aungkaungmyat
+The Lard Rover,http://madhacks-heartbleed.devpost.com/submissions/77800-the-lard-rover,"Inspiration
+
+
+
+The robot was inspired by a robot that gave us an existential crisis in the first season of Rick and Morty. 
+We developed the drive to create this robot after seeing other hardware projects. Our goal with this project was to become better all-around hackers and learn skills in areas we've barely touched before.
+
+What it Does & How it Works & How we Built it
+
+it passes the butter.
+We designed the robot. 
+This includes the drivers. The circuit for the drivers uses a MOSFET, this means a when the gate port receives a HIGH voltage (3.3v) the MOSFET allows current to flow through the base and collector ports, thus turning on the motors. 
+The servo-claw system is something we also designed. We first designed claws to attach to servo motors, we then tested to find the best angular movement pattern to pick-up butter.
+The control mechanism is a websever that info is hosted on the the Domain thing that pushes data to the pi which then translates and realises it as one of a selection of actions. 
+
+Challenges we ran into
+
+
+The H-bridge driver was only half working so we didn't use it.
+RaspPi GPIO
+-RAWR
+The BJT driver was not controling both motors
+ -voltage not current based control
+The servo code was not working
+-Serial.read() returns ASCII or char not int
+The structure of the claw so that it is rigid
+-we used platic utensiles 
+Making the Pi into a web server
+ -files are touchy
+ -so coms method got switched to nRF
+
+
+Accomplishments that we're proud of
+
+We overcame all our challenges. Especially since the broken BJT driver has been plaguing me for almost a year, and more or less been the reason I've abandoned several projects. We also gained a much better understanding of new areas and in each of our respective weak points
+
+What we learned
+
+literally everything
+Valery learned the answer to life the universe and everything is that bjts burn out and get damaged very easily sooooo use a MOSFET.
+Kynara learned arduino and how to use servos, and some mechanics design.
+We all learned Raspberry Pi GPIO
+
+What's next for The Lard Rover
+
+Becoming sentient and passive agressive. 
+Also transitioning off of remote control. 
+",,,,"Best InfoSec + BME Hack, 1st Time Hacker, ""Objectively Human"" - Liberty Mutual, Best Domain Name from Domain.com, Maddest Hack","html5, arduino, c++, python, pi, raspberry-pi, hardware",Iowa State Univeristy,Arduino 101,Domain.com,galval28,Iowa State University,1,kynara,,
+A frustrating TicTacToe,http://madhacks-heartbleed.devpost.com/submissions/78094-a-frustrating-tictactoe,"Inspiration
+
+I have 0 AI experience but I want to try to build an AI type game that crashes all!
+
+What it does
+
+It will never lose the game!!!
+
+How we built it
+
+with js, first struggled with GUI then cracked out the AI algorithm 
+
+Challenges we ran into
+
+AI algorithm development with wired bugs, GUI that always not as we want
+
+Accomplishments that we're proud of
+
+It crashes almost all the players!!
+
+What we learned
+
+simplifying  algorithm, coding with better Javascript compatibility with CSS and HTML
+
+What's next for A frustrating TicTacToe
+
+A better AI and board game thing!
+",,http://www.wzntest.site,https://s3.amazonaws.com/challengepost/zip_files/production/25680/zip_files/MadHack17_Eric_Wang.zip,"Best InfoSec + BME Hack, 1st Time Hacker, ""Objectively Human"" - Liberty Mutual, Maddest Hack",javascript,UW-Madison,,,EricWang12,University of Wisconsin - Madison,1,syuan16,,
+SecureImageConverter,http://madhacks-heartbleed.devpost.com/submissions/78084-secureimageconverter,"Inspiration
+
+We want to generate a way to make the information secure, portable, encrypted and able to be decrypted to the information back.
+
+What it does It can
+
+This program is used to generate a secure image with all the information encrypted in the each block of image by the text given by the user. All the information is stored in the image instead of server, so users can make sure their privacy can't be reached from internet, and users can get the information in the image only when the password is provided
+
+How we built it
+
+We used an encryption invented by ourselves, which use prime number product and inversion. We are not using any existing algorithm like Hash because it lost information so we can't get the things back.
+
+Challenges we ran into
+
+The biggest challenge is how to get information back. Since we are going to use prime factorization, python can't support some really large number to do division, so it still has some error when try to decryption
+
+Accomplishments that we're proud of
+
+I think this program has many advantages than those existing nowadays. It has many advantages, like the private file can be freely shared or published, but only those who know the password can access the information. And our mathematical part is really cool, we use the inversion of numbers to remember the original order.
+
+What we learned
+
+We have learnt how to implement our mathematical knowledge to programming, python language details, how to draw a picture with python and most important, how to work as a group.
+
+What's next for SecureImageConverter
+
+I think SecureImageConverter can be commercialized. In the future, it should support using phone camera to scan the printed out image. So it can be used as stickers or a booklet for the private information. For example, the patient profile can be a booklet of SecureImage, so doctors can scan it to see the information, but everyone else without the password can't see this private information
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/25677/zip_files/converter.zip,"Best InfoSec + BME Hack, Best InfoSec Hack, 1st Time Hacker, Best BME Hack, ""Objectively Human"" - Liberty Mutual, Maddest Hack","python, pillow",University of Wisconsin-Madison,,,zelinlv,University of Wisconsin - Madison,0,,,
+Viral Defender,http://madhacks-heartbleed.devpost.com/submissions/78120-viral-defender,"Inspiration
+
+Our team is always curious and truly believe in making learning fun and action packed. We really wanted to try our hand in First Person Shooters and 3D game design, and figured it would be fun to create a game where there is an incentive to know about Computer Science and Information Security.
+
+What it does
+
+This is a First Shooter that tests Gamers on everything from Caesar Ciphers to Java code and rewards them(or punishes them) in game, based on the correctness of their actions.
+
+How we built it
+
+some blood, too much sweat and a few tears, but mostly the unity game engine and c# scripts 
+
+Challenges we ran into
+
+We ran into a ton of challenges, we've never used unity, we've never worked in 3D, and we hit a wall at about hour 19
+
+Accomplishments that we're proud of
+
+We did pretty well at learning a new programming language(c#), learning a new engine, and we did very well at working as a team and we are actually very proud of that.. 
+
+What we learned
+
+We can get a lot more done in 24 hours than we thought. We learned a ton of technical aspects of Game Design and developed our skills and interests in the field.
+
+What's next for Viral Defender
+
+Our first big goal for Viral Defender is to make it multiplayer through the use of computer networking, this will allow us to play with or against each other.From there, we will most definitely be improving it wherever and whenever we can.
+",,https://github.com/dunnyg74/ViralDefender,,Best InfoSec Hack,"unity, c#",WISCONSIN,,,dunnyg74,University of Wisconsin - Madison,2,bhumboldt,mowiemer,
+VoiceMan,http://madhacks-heartbleed.devpost.com/submissions/78130-voiceman,"Inspiration
+
+Voice can express more than just words. 
+
+What it does
+
+How I built it
+
+Challenges I ran into
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for VoiceMan
+",,,,Best InfoSec Hack,unity,UW Madison,,,pkan2,,0,,,
+Crypto Hacker,http://madhacks-heartbleed.devpost.com/submissions/78070-crypto-hacker,"Inspiration:
+
+The Capture the flag activity Friday afternoon to make something involving cryptography techniques.
+
+What it does:
+
+A web based platform for learning/practicing decryption skills.
+
+How we built it javascript:
+
+Using sql to store information for the game, making the challenges separately and then uploading them to the page
+
+Challenges we ran into:
+
+Trying to implement the website using angular 2, failing to implement it in this manner, and then having to restart using js
+
+Accomplishments that we're proud:
+
+Of learning a lot about cryptography and being able to finish the product within the 24 hour period
+
+What we learned:
+
+A more in-depth understanding of how to encrypt messages
+
+What's next for Crypto Hacker:
+
+Continuing to make the user experience better and add more, increasingly difficult challenges
+",,http://www.yousefalabsi.com/MadHacks/register.php,,"Best InfoSec Hack, 1st Time Hacker, ""Objectively Human"" - Liberty Mutual","php, javascript, sql",Iowa State University,,,tlnance,Iowa State University,1,yalabsi,,
+VARTIP,http://madhacks-heartbleed.devpost.com/submissions/78109-vartip,"VARTIP
+
+Vulkan Android Real Time Image Processing
+",,https://github.com/sjfricke/VARTIP,,Best IoT Hack Using a Qualcomm Device,"c++, c, glsl, android, ndk, vulkan, spir-v",University of Wisconsin Madison,,,sjfricke,University of Wisconsin - Madison,0,,,
+Library Digital Assistant,http://madhacks-heartbleed.devpost.com/submissions/78093-library-digital-assistant,"Inspiration
+
+Multiple members of our team currently work at our school's Library and Information Services department. We found a way to make it easier for students and staff to contact the help desk with accurate and detailed  information. We wanted to create a program that helped users walk through the difficult and boring steps of creating a ticket in a fun and quick manner. It also will create the ticket without them having to ever log in to Request Tracker. 
+
+What it does
+
+The Library Digital Assistant (LDA) helps the user through the steps of creating a connectivity ticket. The user messages a Natural Language Processing (NLP) service in Microsoft's ""Cognitive Services"" suite called Language Understanding Intelligence Service (LUIS) by using Microsoft Bot Framework as a front end. LUIS will generate a keyword from the user's responses. With the keyword generated, we can predict the next steps of creating a ticket. For example, if the user inputs, ""I am having a problem connecting to the Wi-Fi,"" LUIS will interpret this as a wireless problem, which will lead to the next logical question of, ""What device seems to be giving you trouble?"" After collecting all the information needed to create a ticket (problem, wired or wireless, what type of device, MAC Address, residence hall, and user's email), the LDA will create a ticket in the request tracker system.
+
+How we built it
+
+We started by deciding we would utilize the chat bot functionality of Microsoft Bot Framework with Azure hosting. We split up our task into training LUIS, setting up the Request Tracker (RT) API, and writing the JavaScript for the chat bot that will also integrate LUIS and RT. For the Request Tracker API, our group utilized the Azure cloud service to host an Ubuntu Linux virtual machine, which then serves our personal Request Tracker.
+
+Challenges we ran into
+
+
+The responses from LUIS cannot be stacked, which makes the flow of the conversation difficult to control. 
+The integration into Azure and LUIS was difficult as none of us had previous experience with them.
+Creating a Request Tracker server
+
+
+Accomplishments that we're proud of
+
+We're proud that we were able to learn new technologies and languages in an enthusiastic and responsive manner. We had never done something like this before and we feel like it has very real applicability at our jobs and in healthcare. Another point that we are proud of is converting our full URL into concatenated environmental variables to make our service more secure.
+
+What we learned
+
+We learned new Microsoft technologies such as Azure and LUIS. We learned some basics of Node.js. We all became more experienced in Git. 
+
+What's next for Library Digital Assistant
+
+Scalable goals include implementing a Bing API to help confused users look up what they need to know. This project could be modified for more healthcare applications such as teaching LUIS key medical terms that can be used to make check-in for a patient easier and faster.
+",https://youtu.be/AXovDYEt3LM,https://github.com/mbisciglia/MadHacks2017.git,https://s3.amazonaws.com/challengepost/zip_files/production/25696/zip_files/MadHacks2017-master.zip,Best Use of Microsoft Azure - Microsoft ,"javascript, luis, azure, botchat, node.js, github, love",Carthage College,,,CharlesGallagher,Carthage College,3,jwons,JeremiahMunson,mbisciglia
+Emosong,http://madhacks-heartbleed.devpost.com/submissions/78173-emosong,"Inspiration
+
+We came up with this idea when the Spotify automatically sent me some super exciting playlists when I was very sad. So we were wondering if there is a machine that can detect human's emotion and give them playlist related to it
+
+What it does
+
+This brand new application can understand your emotion from your social media and give you the right song that you want to hear that time 
+
+How we built
+
+The application can grab your writings from your blog and put it into Microsoft Azure. And using Microsoft cloud it can understand your emotion for that day. We also work with Musixmatch to find the song that suits your emotion in that day. Finally, it will make a playlist at Spotify contain all the songs you want to hear.
+
+Accomplishments that we're proud of
+
+This a cross-application service instead of a cross-platform application
+
+What we learned
+
+How to build cross-application services with a massive amount of third-party API.
+
+What's next for Emosong
+
+1, Fix all the bugs and make it more user-friendly,
+2, Integrate with more social media applications to make the mood detection more accurate
+",,http://github.com/Lteins/Emosong,,Best Use of Microsoft Azure - Microsoft ,"azure, spotify, twitter","University of Wisconsin-Madison, Purdue University",,,AlstonXiao,"University of Wisconsin - Madison, Purdue University",3,AdityaSharma1999,EricAragorn,Lteins
+Healthy Diet,http://madhacks-heartbleed.devpost.com/submissions/78158-healthy-diet,"Inspiration
+
+In Mario Games, you need to eat every thing. But in our game, it isn't!
+
+What it does
+
+In this game, you control a character to avoid traps, which includes junk food. You also need to eat as many healthy food as possible to get a higher score.
+
+How we built it
+
+We use Unity 5.6 and C#. We draw most of pictures with Adobe Illustrator.
+
+Challenges we ran into
+
+Main challenge: Unity is new to two members of our team (a 3-person team).
+
+Accomplishments that we're proud of
+
+It looks good!
+
+What we learned
+
+Unity is a very powerful tool to make games.
+
+What's next for Healthy Diet
+
+We expect a better design of game mechanism.
+",,https://github.com/functionadvanced/Healthy-Diet,,Maddest Hack,unity,Purdue University,,,functionadvanced,Purdue University,2,JiachuanDeng,NightlyJourney,
+Spider Sniper,http://madhacks-heartbleed.devpost.com/submissions/78163-spider-sniper,"SpiderSniper
+
+Our Idea
+To create a user-interactive game between one's Android device and laptop; an app was created in Android studio to be linked to a Flash game created with Adobe Animate.
+
+Problems we encountered
+This was a learning experience for everyone, especially when it came to creating a server to send commands from the Android app to the Flash game. Our group explored web services, sockets, and so on, but sadly we did not have the time necessary to fully implement this concept.
+
+Future scope of our project
+With our project, users will be immersed in a new mode of gameplay with their Android device: instead of pressing keys on the keyboard and clicking a mouse to play, they will explore a more spatial approach to gameplay by hooking up their mobile device and using a touchscreen. With added functionality such as voice commands to pause and resume the game, this method of play would make for a seamless experience for the player.
+
+Contributors:
+Anthony Niemiec
+Trishank Rao
+Bao Dau
+",,https://github.com/trao99/SpiderSniper,,Maddest Hack,"java, android-studio, actionscript",Purdue University,,,TrishankRao,Purdue University,2,aniemiec758,BAODAU,
+Just a second,http://madhacks-heartbleed.devpost.com/submissions/78067-just-a-second,"Inspiration
+
+Wanted to create a website that i believed could actually maybe convince some people to start thinking more about the world we live in and how we can make it a better place.
+
+What it does
+
+It's pretty simple, just has updating numbers and icons that provide a visual representation of a variety of different events that happen every 60 seconds. I did't want to make it some super complex app with tons of data in your face. I wanted it to be a simple clean interface so the user is focusing on only one thing, the changing numbers and icons that show a sense of scale.
+
+How I built it
+
+It's built using Vue.js and hosted on firebase.
+
+Challenges I ran into
+
+Had some problems creating so many icons on the screen, but came up with some solutions that seemed to help, like only rendering new icons and some other small features like that.
+
+Accomplishments that I'm proud of
+
+The code isn't anything groundbreaking, but I'm hoping maybe just one person would find a cause they believe in after viewing the site and choose to contribute towards it. 
+
+What I learned
+
+How to use a new CSS framework(materialize) and a lot about the world we live in.
+
+What's next for Just a second
+
+I would probably like to add more statistics, maybe a separate page on the site where it has more random statistics such as happy meals consumed.  Maybe some sort of feature where the values can be graphed?
+",,https://github.com/tbrown19/60-Seconds,,,"vue, firebase",University of Wisconsin-Madison,,,tbrown19,,0,,,
+Emosong,http://madhacks-heartbleed.devpost.com/submissions/78082-emosong,"Inspiration
+
+A lot of playlists these days play songs that you usually listen to, but can they play songs according to how you feel at that very moment? Emosong does this.
+
+What it does
+
+Upon the user's permission, Emosong implements Microsoft Azure's Sentiments API and calculates your mood by analyzing your recent chats and pictures, and then goes through the entire playlist of Spotify and chooses the song which is most associated with your mood.
+
+How we built it
+
+We used node.js to connect interfaces of Twitter, Musixmatch 
+
+Accomplishments that we're proud of
+
+
+Successfully completing the project
+Making one of our dreams turn into a reality
+## What we learned
+Using the Sentiments API
+How to successfully pull a mass all-nighter
+## What's next for Emosong
+Add EDM and other lyricless songs as well. Also, the user experience would have to improve. We would want to create a more seamless experience for our users through the front end.
+
+",,,,,"python, node.js","Purdue University, University of Wisconsin,Madison",,,AdityaSharma1999,"Purdue University, University of Wisconsin - Madison",2,EricAragorn,Lteins,
+Musical Simon,http://madhacks-heartbleed.devpost.com/submissions/78089-musical-simon,"We aimed to use React + Express + Node.js to create a real-time web application to play a musical version of Simon with your friends. The idea was to allow a user to create a room with a unique ID, share the ID with friends, and have them connect and start playing. The game consists of rounds with a 'game master' for each round. The GM selects the next chord to be played in the sequence at the start of every turn. Once the GM selects, the users are able to input the entire sequence in a limited amount of time. The round will continue until all users have failed or there is only one remaining. We wanted to implement an algorithm to increment the user score based on the sequence length at the end of each round, but it looks like we may not get there at this event :(
+",,https://github.com/dmeredith96/MadHacks2017,,,"javascript, css, html","Indiana University-Purdue University Fort Wayne, Purdue University",,,DavidMeredith,Indiana University - Purdue University Fort Wayne,0,,,
+Working Title,http://madhacks-heartbleed.devpost.com/submissions/78098-working-title,"Inspiration
+
+We were using Slack and decided to create a bot to keep our group company.
+
+What it does
+
+This bot responds to select key phrases, including introductions/greetings and
+
+How we built it
+
+Slack has a unique API that allows users to create apps directly. It is very useful in creating the application. We edited the starting code using Glitch to create a few custom responses.
+
+Challenges we ran into
+
+Deciding what we actually wanted to do in the first place.
+
+Accomplishments that we're proud of
+
+Getting a demoable project.
+
+What we learned
+
+The Slack API, Node JS, setting up a website using Bootstrap and Github Pages, and creativity should not be delayed till the last minute.
+
+What's next for Working Title
+
+Add more responses to the bot and have custom backslash commands such that users can play mini games between each other through the bot. 
+",,https://madhacksdemo.slack.com/apps/A7G6BSPST-demo-app?page=1,,,"slack, node.js, javascript",University of Iowa,,,zkhan4123,University of Iowa,2,hwaldstein,mharryowen,
+Medical Records Blockchain,http://madhacks-heartbleed.devpost.com/submissions/78132-medical-records-blockchain,"With our solution, hospitals and clinic will be able to finally give control of medical records to patients while not only increasing accessibility of records, but also enhancing the security of records through the power of blockchain technology.
+
+Our mission is to empower patients through returning ownership of records to the patients through a secure network utilizing blockchain solutions while reducing hospital works.
+
+Many surgeons due to high demand must leave their patients prior to their awakening. Patients then wake up with a nurse in the room and the nurses are legally obligated to not view the patient’s medical history. This means that the patients have to leave the hospital without knowing whether their operation was a success. Our vision is a world where patients know the outcome of their surgeries immediately after waking up from their operations which can be completed through our mission.
+
+The largest problem we came across was one of security. Securing the worlds medical records and making them easily accessible is a difficult challenge. We feel we have combatted that challenge head-on with our hyperledger blockchain implementation and mobile phone development placing secure medical records in the hands of our users.
+
+This idea came to us while we were studying up on ethereum and how it passes smart assets from one user to another. We asked ourselves, “why can’t we consider a medical record a financial asset?” There is a high level of privacy necessary for both financial assets and medical records thus our idea to use a hyper ledger and blockchain solution to the age-old problem of getting medical records back into the user’s hands became our challenge.
+
+We decided to use Hyperledger Fabric (a smart contract tool created by IBM) because Fabric was created for application development. We then used the Hyperledger composer's tool to utilize Hyperledger Fabric’s implementation of the blockchain. If you are a sponsor who wants to learn more about Hyperledger we encourage you to visit the following websites:
+https://www.hyperledger.org
+
+https://github.com/hyperledger/composer/blob/master/README.md
+
+https://www.youtube.com/watch?v=fdFUsrsv5iw&t=23s
+
+https://www.zurich.ibm.com/~cca/talks/20170106-blockchain-rwc.pdf
+",,https://github.com/TeaOfJay/hack-medicalblockchain,,,"javascript, blockchain, hyperledger, python, rest",University of Wisconsin Madison,,,yyang0087,,0,,,
+HealthClassifier,http://madhacks-heartbleed.devpost.com/submissions/78152-healthclassifier,"HealthClassifier
+
+HealthClassifier is a simple Android application that utilizes machine learning in reading and classifying input medical data. Given user input into the application interface, the program uses a decision tree to match and classify data to learned patterns. Although this is an overly-complex solution, it demonstrates the potential of rudimentary machine learning in the medical field. This concept can be expanded to large datasets with multiple potential classifications by changing small parts of the program.
+
+The output of the program, based on input files train.csv and test.csv, looks something like this:
+
+These A-values correspond to the features, in this order:
+1 = Heart Rate
+2 = Low Blood Pressure
+3 = High Blood Pressure
+4 = BMI
+5 = Blood Sugar
+6 = Blood Sugar (after eating)
+7 = Blood Cholestrol
+The values after represent the ""significance"" of each feature, essentially defining the highest node on the decision tree (in this case, A7) and so on.
+A1 0.026075
+A2 0.064904
+A3 0.056008
+A4 0.037618
+A5 0.032405
+A6 0.028895
+A7 0.065199
+
+This list shows the values classified by the decision tree on the training set. The final number is the percent accuracy.
+print training accuracy
+---------------------------------------------------------------
+Unhealthy
+Unhealthy
+Healthy
+Unhealthy
+Healthy
+Unhealthy
+Healthy
+Unhealthy
+Unhealthy
+Healthy
+...
+Unhealthy
+Unhealthy
+Unhealthy
+Healthy
+Unhealthy
+0.93
+
+This list shows the values classified by the decision tree on the training set. The final number is the percent accuracy.
+print testing accuracy
+---------------------------------------------------------------
+Unhealthy
+Unhealthy
+Healthy
+Unhealthy
+Unhealthy
+Unhealthy
+Healthy
+Unhealthy
+Unhealthy
+Unhealthy
+Healthy
+Unhealthy
+Healthy
+Unhealthy
+Unhealthy
+Healthy
+Unhealthy
+Unhealthy
+Unhealthy
+Unhealthy
+...
+Unhealthy
+Unhealthy
+Healthy
+Unhealthy
+Unhealthy
+0.802
+",,https://github.com/kitaice/HealthClassifier,,,java,University of Wisconsin Madison,,,politowicz205,University of Wisconsin - Madison,2,NeilKeung,kitaice,
+BotDoc,http://madhacks-heartbleed.devpost.com/submissions/78170-botdoc,"We try to make a bot that can assign the doctor to the patient.
+",,,,,azure,sadf,,,leducsang97,Lawrence University,0,,,
