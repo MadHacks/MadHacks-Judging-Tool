@@ -18,7 +18,7 @@ for row in submissionsRowList:
 with open('output.csv', 'w', newline='') as csv_file:
     writer = csv.writer(csv_file, delimiter=',')
     writer.writerow(submissionsRowList[0]+['Table Number']+['Assigned Judges'])
-    submissionsRowList.remove(submissionsRowList[0]) # Remove first row for parsing, projects
+    submissionsRowList.remove(submissionsRowList[0]) # Remove first row for parsing projects
     tableNumber = 1
     for line in submissionsRowList:
         assignedJudgeNumber = int(((tableNumber-1)/int((len(submissionsRowList)/int(JudgesNumber)))+1))
